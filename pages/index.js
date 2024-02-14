@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { categorizeAddresses } from '../utils/helpers';
-
+import { Analytics } from '@vercel/analytics/react';
 export default function Home() {
   const [addresses, setAddresses] = useState('');
   const [tokens, setTokens] = useState({});
@@ -67,6 +67,7 @@ export default function Home() {
           {Object.entries(tokens).map(([address, tokenAmount]) => (
             <div key={address} className="token-amount">{`${address}: ${tokenAmount} tokens`}</div>
           ))}
+          <Analytics />
         </div>
       </div>
     </div>
