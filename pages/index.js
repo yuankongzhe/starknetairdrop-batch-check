@@ -59,7 +59,9 @@ export default function Home() {
           <p>好玩的东西：<a href="https://docs.google.com/spreadsheets/d/1iQAR250i_QT2kWuoiQiWJPMBVnKo7SyMpcxijyWsavg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
               STRK空投数量前1000地址</a></p>
             <p>一切以官方查询为准，本站只作为参考</p>
-
+            <p>其他STARK空投批量查询网站（本站主打一个快速开发，其他站点查询体验更好）：<a href="https://airdrop.rescueth.com/" target="_blank" rel="noopener noreferrer">
+            https://airdrop.rescueth.com/</a><a href="https://cointool.app/airdrop/starknet" target="_blank" rel="noopener noreferrer">
+            https://cointool.app/airdrop/starknet</a></p>
           
           
         </div>
